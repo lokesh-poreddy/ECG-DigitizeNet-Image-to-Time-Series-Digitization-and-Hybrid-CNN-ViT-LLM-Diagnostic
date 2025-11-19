@@ -7,11 +7,28 @@ Image-to-Time-Series Digitization and Hybrid CNN–ViT–LLM Diagnostic System.
 ## Structure:
 ```
 ECG-DigitizeNet/
-  src/
-  models/
-  notebooks/
-  examples/
-  data/
+│
+├── src/
+│   ├── signal_extractor.py
+│   ├── model_cnn_vit.py
+│   ├── doctor_lokitrix.py
+│   ├── pipeline_inference.py
+│
+├── notebooks/
+│   └── ECG_DigitizeNet_Kaggle.ipynb
+│
+├── models/
+│   └── hybrid_model_best.pt
+│
+├── examples/
+│   └── sample_report.txt
+│
+├── data/
+│   └── README.md
+│
+├── README.md
+└── LICENSE
+
 ```
 ## Author:
 - Lokesh Reddy Poreddy
